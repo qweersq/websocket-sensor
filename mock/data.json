@@ -1,0 +1,30 @@
+// SEND ALARM From Server to Client
+// send data branch, latitude, longitude, time, date, condition, status, id
+// can send multiple alarm at once
+{
+    "type": "alarm",
+    "data": [
+        {
+            "id": "id1",
+            "branch": "Malang",
+            "latitude": 13.123456,
+            "longitude": 100.123456,
+            "time": "12:00",
+            "date": "2018-01-01",
+            "condition": "active"
+        },
+        {
+            "id": "id2",
+            "branch": "Malang",
+            "latitude": 13.123456,
+            "longitude": 100.123456,
+            "time": "12:00",
+            "date": "2018-01-01",
+            "condition": "active"
+        }
+    ]
+}
+
+// define socket connection
+// socket join by branch, and user role 
+
